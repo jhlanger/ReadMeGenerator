@@ -28,7 +28,7 @@ Made by ${generateReadme.name}
 
 ## Tests
 
-${generateReadme.tests}
+${generateReadme.test}
 
 ## Questions
 *Find me on [Github](https://github.com/${generateReadme.github})
