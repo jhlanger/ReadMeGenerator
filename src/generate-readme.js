@@ -33,7 +33,7 @@ Made by ${generateReadme.name}
 
 ${generateReadme.test}
 
-##License
+## License
 
 The following application is covered under the ${generateReadme.license} License. 
 
