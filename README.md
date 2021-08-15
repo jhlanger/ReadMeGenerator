@@ -5,13 +5,7 @@ This is a README generator. It will take in details inputed by the user and add 
 
 https://youtu.be/2PLDB1XaCrA 
 
-<object width="425" height="350">
-  <param name="movie" value="https://youtu.be/2PLDB1XaCrA" />
-  <param name="wmode" value="transparent" />
-  <embed src="https://youtu.be/2PLDB1XaCrA"
-         type="application/x-shockwave-flash"
-         wmode="transparent" width="425" height="350" />
-</object>
+[![Readme Generator](./assets/appImg.PNG?raw=true)](https://www.youtube.com/watch?v=2PLDB1XaCrA "Readme generator")
 
 
 
