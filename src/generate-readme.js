@@ -4,6 +4,9 @@ module.exports = generateReadme => {
 # ${generateReadme.title}
 
 ## Description
+
+[![License](https://img.shields.io/badge/License-${generateReadme.license}-lightblue.svg)]
+
 ${generateReadme.description}
 
 ## Table of Contents
@@ -30,8 +33,12 @@ Made by ${generateReadme.name}
 
 ${generateReadme.test}
 
+##License
+
+The following application is covered under the ${generateReadme.license} License. 
+
 ## Questions
-*Find me on [Github](https://github.com/${generateReadme.github})
+*Github located here:  [Github](https://github.com/${generateReadme.github})
 *Contact me via [Email](mailto:${generateReadme.email})
 *If you have any questions feel free to contact me through my email address and I will respond as time allows. 
     `

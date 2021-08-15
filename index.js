@@ -107,9 +107,32 @@ const promptUser = () => {
                 return false;
               }
             }
-        }
+        },
+        {
+          type: 'rawlist',
+          name: 'license',
+          message: 'Select the license that covers the application',
+          choices: ['Apache', 'Boost', 'BSD', 'BSD 2', 'Eclipse', 'GNU', 'IBM', 'ISC', 'MIT', 'Mozilla', 'Perl', 'SIL', 'Unlicense'],
+          
+          validate: licenseInput => {
+            if (licenseInput) {
+              return true;
+            } else {
+              console.log('Please enter a valid index test!');
+              return false;
+            }
+          }
+           
+          
+      }
+
+      
+
     ])
-.then(userData => userData);
+.then(userData => {
+    
+  return userData
+});
 
 }
 
@@ -121,3 +144,4 @@ promptUser()
         console.log('Read me created');
     });
 });
+
